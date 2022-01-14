@@ -93,157 +93,98 @@ a{
     position: absolute;
     top:50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:688) {
-     
-    }
+/* top section End-----------------------------------/
+              my top section End
+/-------------------------------------- */
+.to-section{
+    display: flex;
+    justify-content: center;
+}
+.popular{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-top: 100px;
+}
+.compani-logo{
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.logo-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compani-dites{
+    padding-left: 61px;
+}
+/* --------------------------
+compani logo section End
+------------------------- */
+/* ----------------------------
+product section Start manu
+--------------------------- */
+.product-section{
+   display: flex;
+   justify-content: center;
+}
+.bloge{
+    width: 1047px;
+    height: 1662px;
+}
+.popular-calcoletion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.product-info{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 20px #d4d4d4;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.width-img{
+    width: 300px;
+    height: 256px;
+    padding-left: 15px;
+    padding-top:20px;
+    border-radius: 10px;
+}
+.product-name{
+    padding-left: 11px;
+    padding-top: 11px;
+    position: relative;
+    top: -60px;
+}
+.product-head{
+    font-size: 28px;
+    color: #18191F;
+}
+.peragraph-p{
+    font-size:24px;
+    font-weight: 500;
+    margin-top: -50px;
+}
+span{
+    color: #787885;
+}
+.fa-star{
+    color: #FB8200;
+}
+.title-p{
+    font-size: 14px;
+    color: #787885;
+}
+.arrow{
+    text-align: right;
+    margin-right: 23%;
+    font-weight: bold;
+    color: #E02C6D;
+    margin-top: 50px;
+}
