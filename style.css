@@ -1,4 +1,41 @@
 /*google font link*/
 body{
     font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
 }
+/* header manu logo container*/
+header{
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    width:1047px;
+}
+.top-manu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos{
+    width: 243px;
+    font-size: 24px;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+.manu{
+    width: 463px;
+    height: 36px;
+}
+a{
+    text-decoration: none;
+}
+#anchor{
+    font-size: 16px;
+    font-weight: 600;
+    color:#3A3A3A;
+    padding-left: 32px;
+}
+/* ---------------------header manu------/
+/---End------------------- */
+/*-------------top section-----------
+----------------------------Start */
