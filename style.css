@@ -324,7 +324,7 @@ footer{
           }
     }
 /* --------------------------------------
-         START MEDIA QURY 
+         MOBILE VERSTION
 ------------------------------------ */
 @media only screen and (max-width:688px){
     .top-sectio{
@@ -377,5 +377,17 @@ footer{
         grid-template-columns: repeat(1,1fr);
         justify-content: center;
         justify-items: center;
+    }
+    .animation-tabe{
+        margin-bottom: 160px;
+    }
+    .content-area {
+        width:350pxpx;
+        height: 270px;
+        margin-top: 800%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 100px;
+        justify-items: end;
     }
     }
