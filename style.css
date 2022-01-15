@@ -384,10 +384,14 @@ footer{
     .content-area {
         width:350pxpx;
         height: 270px;
-        margin-top: 800%;
+        margin-top:570%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 100px;
+        margin-bottom: 197px;
         justify-items: end;
+    }
+    .half-width {
+        width: 374px;
+        height: 224px;
     }
     }
