@@ -93,6 +93,10 @@ img{
     height: 414px;
     position: absolute;
     top:50px;
+    transition: 5s;
+}
+.camera:hover{
+    transform: rotate(180deg);
 }
 /* top section End-----------------------------------/
               my top section End
@@ -191,6 +195,78 @@ span{
     color: #E02C6D;
     margin-top: 50px;
 }
+/* --------------------------------------------------
+       LAST PAGE SECTION START
+----------------------------------- */
+.anim-ation{
+    width: 404px;
+    height: 270px;
+    background-image: url(images/drone.png);
+    background-repeat: no-repeat;
+    background-size:70%;
+   animation-name: Heropro;
+   animation-duration:10s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count:infinite;
+   animation-delay:2s;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes Heropro {
+    0%{
+        background-image: url(images/mic.png);
+    }
+    25%{
+        background-image: url(images/main-camera.png);
+    }
+    25%{
+        background-image: url(images/setup.png);
+    }
+    25%{
+        background-image: url(images/tripod.png);
+    }
+    75%{
+        background-image: url(images/camera.png);
+    }
+    100%{
+        background-image: url(images/single-light.png);
+    }
+}
+.animation-section{
+    display: flex;
+    justify-content: center; 
+}
+.content-area{
+    width: 1110px;
+    height: 270px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 610px;
+    height: 224px;
+}
+.hedding{
+    font-size: 38px;
+    color: #0A0826;
+    font-weight: 700;
+}
+.heding-p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom:20px;
+}
+.squar-button{
+    background: #E02C6D;
+    width: 155px;
+    height: 24px;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
 /* ---------------------------------------
 product section End
 ---------------------------------- */
@@ -251,9 +327,6 @@ footer{
          START MEDIA QURY 
 ------------------------------------ */
 @media only screen and (max-width:688px){
-    main{
-        justify-content: center;
-    }
     .top-sectio{
         width: 100%;
        }
