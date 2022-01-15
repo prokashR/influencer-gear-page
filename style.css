@@ -2,6 +2,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
+    margin: 0;
 }
 /* header manu logo container*/
 header{
@@ -187,4 +188,78 @@ span{
     font-weight: bold;
     color: #E02C6D;
     margin-top: 50px;
+}
+/* ---------------------------------------
+product section End
+---------------------------------- */
+
+/* --------------------------------------------------
+       LAST PAGE SECTION START
+----------------------------------- */
+.anim-ation{
+    width: 404px;
+    height: 270px;
+    animation: identifier 5s ease-in-out 1 infinite alternate;
+}
+.animation-section{
+    display: flex;
+    justify-content: center; 
+}
+.content-area{
+    width: 1110px;
+    height: 270px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 610px;
+    height: 224px;
+}
+.hedding{
+    font-size: 38px;
+    color: #0A0826;
+    font-weight: 700;
+}
+.heding-p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom:20px;
+}
+.squar-button{
+    background: #E02C6D;
+    width: 155px;
+    height: 24px;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+/* footer box-------------------------------
+---------------------------- */
+footer{
+    height:300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    width: 262px;
+    height: 139px;
+}
+.footer-heddings{
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-copyright{
+    text-align: center;
+    color: #D9DBE1;
+    font-size: 14px;
+}
+.suchal{
+    margin-left:20px;
+    color: #FFFFFF;
+    padding-left: 20px;
 }
